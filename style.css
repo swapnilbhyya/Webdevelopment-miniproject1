@@ -1,3 +1,4 @@
+//Overall styling
 *{
     margin:0;
     padding:0;
@@ -5,6 +6,7 @@
 :root{
     --navbar-height:59px;
 }
+//Navigation bar styling
 #navbar{
     display:flex;
     align-items: center;
@@ -39,6 +41,7 @@ size: 0ex;
     color:black;
     background-color:white;
 }
+//Home section styling
 #home{
     display: flex;
     flex-direction: column;
@@ -72,7 +75,7 @@ size: 0ex;
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
 }
-/* Services Section */
+Services Section Styling
 #services-container
 {
     text-align: center;
@@ -99,6 +102,7 @@ size: 0ex;
 #services .box p{
     font-family: 'Bree Serif', serif;
 } 
+//Client Section styling
 #client-section{ 
     position: relative;
 }
@@ -128,6 +132,7 @@ text-align: center;
 #clients img{
     height: 130px;width: 200px;
 }
+//Contact section styling
 #contact{
     position: relative;
 }
